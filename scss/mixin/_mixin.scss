@@ -1,0 +1,33 @@
+@mixin background-gradient($orientation, $startColor, $endColor) {
+    @if $orientation == "vertical" {
+        background: $startColor;
+        background: -moz-linear-gradient(top, $startColor 0%, $endColor 100%);
+        background: -webkit-linear-gradient(top, $startColor 0%, $endColor 100%);
+        background: linear-gradient(to bottom, $startColor 0%, $endColor 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$startColor', endColorstr='$endColor',GradientType=0 );
+    }
+    @else if $orientation == "horizontal" {
+        background: $startColor;
+        background: -moz-linear-gradient(left, $startColor 0%, $endColor 100%);
+        background: -webkit-linear-gradient(left, $startColor 0%,$endColor 100%);
+        background: linear-gradient(to right, $startColor 0%,$endColor 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$startColor', endColorstr='$endColor',GradientType=1 );
+    }
+    @else if $orientation == "diagonalUp" {
+        background: $startColor;
+        background: -moz-linear-gradient(45deg, $startColor 0%, $endColor 100%);
+        background: -webkit-linear-gradient(45deg, $startColor 0%,$endColor 100%);
+        background: linear-gradient(45deg, $startColor 0%,$endColor 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$startColor', endColorstr='$endColor',GradientType=1 );
+    }
+    @else if $orientation == "diagonalDown" {
+        background: $startColor;
+        background: -moz-linear-gradient(-45deg, $startColor 0%, $endColor 100%);
+        background: -webkit-linear-gradient(-45deg, $startColor 0%,$endColor 100%);
+        background: linear-gradient(135deg, $startColor 0%,$endColor 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$startColor', endColorstr='$endColor',GradientType=1 );
+    }
+    @else {
+        @warn "Orientation mixin supports: vertical, horizontal, diagonalUp, diagonalDown";
+    }
+}

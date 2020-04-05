@@ -1,0 +1,240 @@
+/* THEME-COLOR DEFINATION */
+/* EXTRA-COLOR DEFINATION */
+/* BACKGROUND-COLOR DEFINATION */
+/* TEXT-COLOR DEFINATION */
+/* FUNCTION-COLOR DEFINATION */
+/* FONT-SIZE DEFINATION */
+/* FONT-WEIGHT DEFINATION */
+/* FONT-FAMILY DEFINATION */
+h1 {
+  font-family: "Lora", serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-bottom: 40px;
+  background: #4b4a63;
+  padding: 15px 40px;
+  color: #fff; }
+
+h2 {
+  font-family: "Lora", serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-bottom: 40px; }
+
+p {
+  font-family: "Work Sans", sans-serif; }
+
+body {
+  background: #f9f9f9; }
+
+.dt-menubar {
+  background: #4b4a63;
+  padding: 43px 0; }
+  .dt-menubar .bg-light {
+    background: #fff !important;
+    padding: 8px 12px;
+    position: relative;
+    top: -53px; }
+    .dt-menubar .bg-light img {
+      width: 78%; }
+    .dt-menubar .bg-light .navbar-nav .nav-item .active > .nav-link {
+      background: transparent;
+      color: #7171ce;
+      font-size: 18px;
+      font-weight: 600; }
+    .dt-menubar .bg-light .navbar-nav .nav-item a {
+      color: #7171ce;
+      font-size: 18px;
+      font-weight: 600;
+      margin-right: 10px; }
+      .dt-menubar .bg-light .navbar-nav .nav-item a:after {
+        content: '';
+        padding: 1px;
+        display: inline-block;
+        height: 16px;
+        position: relative;
+        background: #7171ce;
+        margin-left: 10px;
+        top: 3px;
+        left: 4px; }
+  .dt-menubar h3, .dt-menubar p {
+    text-align: center;
+    z-index: 9;
+    position: relative;
+    color: #fff;
+    padding-bottom: 20px; }
+
+.dt-blog {
+  padding: 80px 0; }
+  .dt-blog .main-box {
+    padding: 10px; }
+    .dt-blog .main-box .card-body {
+      padding: 0; }
+      .dt-blog .main-box .card-body ul {
+        padding: 0;
+        margin-top: 12px; }
+        .dt-blog .main-box .card-body ul li {
+          display: inline-block;
+          padding-right: 20px; }
+      .dt-blog .main-box .card-body .mdi {
+        padding-right: 10px; }
+      .dt-blog .main-box .card-body .title a {
+        color: #021529;
+        font-family: "Libre Franklin", sans-serif;
+        font-weight: 600; }
+      .dt-blog .main-box .card-body .author {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 22px; }
+        .dt-blog .main-box .card-body .author .p-image {
+          padding-right: 20px;
+          margin-top: 5px; }
+          .dt-blog .main-box .card-body .author .p-image .p-icon {
+            border-radius: 50px; }
+        .dt-blog .main-box .card-body .author .p-name li {
+          color: #838a8a; }
+          .dt-blog .main-box .card-body .author .p-name li .name {
+            color: #f51919; }
+      .dt-blog .main-box .card-body p {
+        color: #635d5d; }
+      .dt-blog .main-box .card-body .date {
+        color: #1c003c;
+        padding-right: 30px;
+        font-size: 14px;
+        font-weight: 600; }
+        .dt-blog .main-box .card-body .date:after {
+          content: "";
+          display: inline-block;
+          height: 1px;
+          width: 6%;
+          position: relative;
+          background: #1c003c;
+          top: -3px;
+          left: 4px; }
+    .dt-blog .main-box .dt-top-people {
+      padding-top: 40px;
+      padding-bottom: 40px; }
+      .dt-blog .main-box .dt-top-people img {
+        width: 100%; }
+      .dt-blog .main-box .dt-top-people h2 {
+        background: #4b4a63;
+        padding: 10px 20px;
+        color: #fff; }
+      .dt-blog .main-box .dt-top-people h3 {
+        color: #1c003c; }
+        .dt-blog .main-box .dt-top-people h3 small {
+          display: block;
+          font-style: italic;
+          font-size: 16px;
+          padding-top: 10px;
+          padding-bottom: 20px; }
+      .dt-blog .main-box .dt-top-people p {
+        color: #1c003c; }
+  .dt-blog .widget {
+    padding: 20px 15px;
+    position: relative;
+    left: 37px; }
+    .dt-blog .widget form {
+      display: flex;
+      width: 273px; }
+    .dt-blog .widget .form-control {
+      padding: 20px 10px;
+      border-radius: 0;
+      border: 1px solid #4b4a63; }
+    .dt-blog .widget .mdi {
+      position: relative;
+      left: -13px;
+      background: #4b4a63;
+      padding: 11px;
+      color: #fff; }
+  .dt-blog .sidebar {
+    padding: 40px; }
+    .dt-blog .sidebar img {
+      height: 87px;
+      width: 86px; }
+    .dt-blog .sidebar h1 {
+      font-size: 18px;
+      color: #fff;
+      background: #4b4a63;
+      padding: 10px 40px; }
+    .dt-blog .sidebar h3 {
+      font-size: 18px; }
+      .dt-blog .sidebar h3 a {
+        font-size: 18px;
+        color: #4b4a63; }
+    .dt-blog .sidebar p {
+      font-size: 14px;
+      color: #838a8a; }
+      .dt-blog .sidebar p .name {
+        color: #f9985f; }
+  .dt-blog .tag {
+    padding: 40px; }
+    .dt-blog .tag h1 {
+      color: #fff;
+      background: #4b4a63;
+      padding: 10px 40px; }
+    .dt-blog .tag ul {
+      padding: 0; }
+      .dt-blog .tag ul li {
+        display: inline-block;
+        list-style: none;
+        margin-bottom: 20px; }
+        .dt-blog .tag ul li a {
+          text-decoration: none;
+          border-radius: 30px;
+          border: 1px solid #4b4a63;
+          padding: 7px;
+          color: #4b4a63; }
+
+.dt-trend {
+  padding-bottom: 60px; }
+  .dt-trend .trend-detail {
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); }
+    .dt-trend .trend-detail .card-title a {
+      color: #02182f; }
+    .dt-trend .trend-detail .author {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 22px; }
+      .dt-trend .trend-detail .author .p-image {
+        padding-right: 20px;
+        margin-top: 5px; }
+        .dt-trend .trend-detail .author .p-image .p-icon {
+          border-radius: 50px; }
+      .dt-trend .trend-detail .author .p-name {
+        position: relative;
+        left: -44px;
+        top: 12px; }
+        .dt-trend .trend-detail .author .p-name li {
+          color: #838a8a;
+          display: inline-flex;
+          flex-direction: row;
+          list-style: none;
+          padding-right: 10px; }
+          .dt-trend .trend-detail .author .p-name li .name {
+            color: #f51919;
+            padding-left: 8px; }
+
+.dt-footer {
+  padding: 30px;
+  background: #0e072b; }
+  .dt-footer p {
+    color: #fff;
+    font-size: 12px; }
+  .dt-footer .social-link li {
+    display: inline-block; }
+  .dt-footer .social-link a {
+    color: #fff;
+    font-size: 12px;
+    padding-right: 20px; }
+    .dt-footer .social-link a:after {
+      content: '';
+      padding: 1px;
+      display: inline-block;
+      height: 12px;
+      position: relative;
+      background: #fbfbff;
+      margin-left: 20px;
+      top: 3px; }
